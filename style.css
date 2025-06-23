@@ -1,0 +1,36 @@
+/*style.css*/
+  /* CSS Comment Style:  Within the style tab, we are creating classes for styles */
+        .center {text-align: center;} /* <center> center-align */
+        
+        .italics {font-style:italic;} /* <i> italics*/
+        
+        .colorful { /* Similar to the Style we made in W3D1 */
+            background-color:darkgoldenrod; 
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight:bold;
+            color:crimson;
+            padding: 15px;}
+
+        .divStyle {
+            background-color:cornsilk;
+            color:darkgreen;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 5px;
+        }
+
+        .spanStyle {
+            background-color: darkgreen;
+            color: cornsilk;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding: 10px;
+        }
+
+        .tab { /* Make a tab-space spacing for our nav bar */
+            display: inline-block;
+            margin-left: 40px; 
+        } 
+    h1{
+        color: aqua;
+    }
+    
+        h2 {
