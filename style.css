@@ -1,0 +1,14 @@
+/* Style for the whole page */
+body {
+  font-family: Arial; /* Use a simple, readable font */
+}
+
+/* Style for the stats box */
+#stats {
+  margin-top: 10px; /* Add some space above the stats */
+}
+
+/* Style for all buttons */
+button {
+  margin: 5px; /* Add space around buttons so they don't touch each other */
+}
