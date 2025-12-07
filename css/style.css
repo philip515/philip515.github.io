@@ -1,0 +1,7 @@
+footer {
+  margin-top: 30px;        /* space above footer */
+  padding: 10px;
+  background: #eee;        /* light gray background */
+  border-top: 2px solid #ccc;
+  text-align: center;      /* center the text */
+}
