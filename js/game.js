@@ -2,13 +2,12 @@
 // Adventure Game with All Scores
 // -----------------------------
 
-// Player stats (starting values)
+
 let stamina = 10;
 let money = 20;
 let hunger = 5;
 
-// Load all scores from localStorage (stored as JSON string)
-// If nothing is saved yet, start with an empty array
+
 let allScores = JSON.parse(localStorage.getItem("allScores")) || [];
 
 // -----------------------------
@@ -25,7 +24,7 @@ function showStats() {
 // -----------------------------
 // Function: updateStats
 // -----------------------------
-// Adjusts stats when a choice is made
+
 function updateStats(staminaChange, moneyChange, hungerChange) {
   stamina += staminaChange;
   money += moneyChange;
@@ -36,8 +35,7 @@ function updateStats(staminaChange, moneyChange, hungerChange) {
 // -----------------------------
 // Adventure steps (story + choices)
 // -----------------------------
-// Each step has text and choices
-// Choices have: text (button label), next (next step), effect (stat changes)
+
 const steps = {
   step1: {
     text: "Step 1: You see berries and a merchant.",
